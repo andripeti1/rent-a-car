@@ -9,11 +9,14 @@ system's description and explanation of each subsystem. It comprises the task th
 involved, the data that the system should contain, and the user interfaces.
 
 The functional requirements discovered are as follows:
-1. Customer registration – New users should be able to register online and print membership cards.
+1. Customer registration – New users should be able to register online and be assigned a role as admin or simple user.
 2. Car reservation online – Customers should be able to utilise the system to book and reserve automobiles online.
 3. Automatic database update once a reservation is made or a new customer is registered – The system should be
 able to update the database without any further effort from the administrator whenever a new reservation or registration
 is made.
+4. Payment Processing - The web application should provide secure payment processing for car rentals, allowing users 
+to pay online using a credit card or other payment methods.
+
 - Non-functional Requirements:
 It describes system elements that are concerned with how the system fulfils functional requirements. They are as
 follows:
@@ -25,11 +28,9 @@ activities and 20 to 25 seconds for less sophisticated jobs.
 3. Error handling – Errors should be avoided as much as possible, and a suitable error message should be supplied to
 help the user through the recovery process. The importance of validating user input cannot be overstated. In addition,
 the time it takes to recover from a mistake should be between 15 and 20 seconds.
-4. Availability – This system must be accessible at all times, 24 hours a day, seven days a week. In the event of a
-catastrophic system failure, the system should be back up and running within 1 to 2 business days, ensuring that the
-business process is not disrupted.
-5. Ease of use – Given the consumers' level of understanding, a basic yet high-quality user interface should be created to
+4. Ease of use – Given the consumers' level of understanding, a basic yet high-quality user interface should be created to
 make it simple to comprehend and need minimal training.
+
 - Assumptions:
 1. At any one moment, each booking is connected with only one automobile reservation.
 2. Cars that are part of the system should be available at a certain point.
