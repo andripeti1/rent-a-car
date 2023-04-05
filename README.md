@@ -7,7 +7,7 @@ requirements from different users.
 Functional requirements are those that are used to demonstrate the system's internal functioning nature, as well as the
 system's description and explanation of each subsystem. It comprises the task that the system should accomplish, the processes
 involved, the data that the system should contain, and the user interfaces.
--  
+
 The functional requirements discovered are as follows:
 1. Customer registration – New users should be able to register online and print membership cards.
 2. Car reservation online – Customers should be able to utilise the system to book and reserve automobiles online.
